@@ -1,0 +1,411 @@
+
+@media (max-width: 1023px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .header_nav {
+        margin: 20px 0;
+    }
+
+    .header_nav_ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .header_nav_ul > li > a {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+
+    .logo_text {
+        font-size: 20px;
+    }
+
+    .Contact_button {
+        width: 30%;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .first-section-img {
+        min-width: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_us_first_section-left,
+    .about_us_first_section-right,
+    .about_us_first_section-midl {
+        min-width: 100%;
+        width: 100%;
+        min-height: 300px;
+        margin: 0;
+    }
+
+    .about_us_first_section-midl {
+        margin: 16px 0;
+    }
+
+    .first-section-BIG-text-span {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .first-section-small-text-span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .button_class {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .button_class .Book,
+    .button_class .Get {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+
+    .first-section {
+        background-size: 30%;
+        background-position: 50% 90%;
+    }
+
+    .underline-img {
+        margin-right: 10%;
+    }
+
+    .first-line-img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .second-section-main-element {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-section-img-text,
+    .second-section-main-element-text-div,
+    .second-section-main-element-input-message-div,
+    .message-container,
+    textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .second-section-img-text {
+        height: 50vh;
+    }
+
+    .second-section-main-element-BIG-text-span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .second-section-main-element-small-text-span,
+    .second-section-main-element-name-span,
+    .second-section-main-element-input-message-span,
+    .second-section-main-element-input-span,
+    input,
+    textarea,
+    .chat-textarea {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 16px;
+    }
+
+    .second-section-img-BIG-text {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .second-section-img-descr-text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .second-section-Get-50-Discount {
+        width: 50%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .second-section-img-text-div {
+        margin-top: 70%;
+    }
+
+    textarea {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        width: 90%;
+    }
+
+    .logo_text {
+        font-size: 18px;
+    }
+
+    .img_logo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .header_nav_ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .header_nav_ul > li > a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .Contact_button {
+        width: 40%;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .first-section-img {
+        margin: 5% auto;
+    }
+
+    .about_us_first_section-left,
+    .about_us_first_section-right,
+    .about_us_first_section-midl {
+        min-height: 200px;
+    }
+
+    .first-section-BIG-text-span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .first-section-small-text-span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hesh-tag {
+        font-size: 14px;
+        padding: 2px 8px;
+    }
+
+    .button_class {
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button_class .Book,
+    .button_class .Get {
+        font-size: 12px;
+        padding: 8px 16px;
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-section {
+        background-size: 40%;
+        background-position: 50% 95%;
+    }
+
+    .underline-img {
+        margin-right: 5%;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .first-line-img {
+        width: 50%;
+    }
+
+    .second-section-main-element {
+        gap: 16px;
+    }
+
+    .second-section {
+        padding: 3%;
+    }
+
+    .second-section-img-text {
+        height: 40vh;
+    }
+
+    .second-section-main-element-BIG-text-span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .second-section-main-element-small-text-span,
+    .second-section-main-element-name-span,
+    .second-section-main-element-input-message-span,
+    .second-section-main-element-input-span,
+    input,
+    textarea,
+    .chat-textarea {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 12px;
+    }
+
+    .second-section-img-BIG-text {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .second-section-img-descr-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .second-section-Get-50-Discount {
+        width: 70%;
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .second-section-pointers {
+        width: 30%;
+    }
+
+    .second-section-img-text-div {
+        margin-top: 50%;
+    }
+
+    .second-section-main-element-input-message-div,
+    .message-container,
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        margin: 10px 0;
+    }
+
+    .chat-textarea {
+        min-height: 50px;
+        max-height: 150px;
+        border-radius: 24px;
+    }
+
+    .second-section-send-message-button {
+        padding: 16px;
+        border-radius: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_text {
+        font-size: 16px;
+    }
+
+    .img_logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header_nav_ul > li > a {
+        font-size: 12px;
+    }
+
+    .Contact_button {
+        width: 50%;
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+
+    .first-section-BIG-text-span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .first-section-small-text-span {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .hesh-tag {
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+
+    .button_class {
+        width: 90%;
+    }
+
+    .button_class .Book,
+    .button_class .Get {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    .first-section {
+        background-size: 50%;
+        background-position: 50% 100%;
+    }
+
+    .underline-img {
+        margin-right: 0;
+        width: 60%;
+    }
+
+    .first-line-img {
+        width: 60%;
+    }
+
+    .second-section-main-element-BIG-text-span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .second-section-main-element-small-text-span,
+    .second-section-main-element-name-span,
+    .second-section-main-element-input-message-span,
+    .second-section-main-element-input-span,
+    input,
+    textarea,
+    .chat-textarea {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .second-section-img-BIG-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .second-section-img-descr-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .second-section-Get-50-Discount {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .second-section-img-text {
+        height: 30vh;
+    }
+
+    .second-section-img-text-div {
+        margin-top: 40%;
+    }
+}

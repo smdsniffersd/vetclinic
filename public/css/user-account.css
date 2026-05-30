@@ -1,0 +1,98 @@
+span {
+    display: block;
+}
+
+main,
+body {
+    width: 100%;
+}
+
+.header_nav {
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+    margin-left: 1vh;
+}
+
+.dog-img {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 24px;
+}
+
+.person-spans-div,
+.info-of-pet-descr {
+    margin-left: 2vh;
+}
+
+.info_of_full_person,
+.info-of-Medical-information,
+.info-of-pet {
+
+    padding: 2.5vh;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info_of_full_person,
+.info-of-Medical-information {
+    max-width: 80vh;
+    min-width: fit-content;
+}
+
+/* .info > div{
+    padding: 4.5vh;
+    border-radius: 24px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} */
+.header-info {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 2vh;
+    border-radius: 24px;
+    color: white;
+    background-color: #FF990f;
+    margin-bottom: 3vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-of-person-span {
+    margin-bottom: 2vh;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.info-of-Medical-information {
+    margin-top: 5vh;
+}
+
+.info-of-pet-descr {
+    margin-top: 2vh;
+}
+
+.person {
+    padding: 4.5vh;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-of-person {
+    max-width: 35%;
+    min-width: 35%;
+}
+
+.headerButtons {
+    min-width: 225px;
+}
+
+.loginBtnText {
+    display: block;
+    width: fit-content;
+    margin-top: 0.7vh;
+    padding: 0 0.5vh;
+}

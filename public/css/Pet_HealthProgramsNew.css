@@ -1,0 +1,392 @@
+.firstContentBlock,
+.first-section-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-section-text,
+.first-section-BIG-text,
+.first-section-small-text,
+.button_class {
+    width: fit-content;
+}
+
+.first-section-BIG-text {
+    margin-top: 1vh;
+}
+
+.first-section-BIG-text-span,
+.first-section-small-text-span,
+.second-BIG-text-element-span,
+.second-descr-text-element,
+.second-block-element-left-BIG-text-span,
+.second-block-element-midle-BIG-text,
+.fourth-section-text-header-span,
+.fourth-section-BIG-text-span,
+.fourth-section-BIG-text-span {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section-text,
+.hesh-tag,
+.button_class {
+    margin: auto;
+}
+
+.button_class>a {
+    padding: 1.5vh 3vh;
+}
+
+.hesh-tag,
+.first-section-BIG-text-span,
+.first-section-small-text-span,
+.second-BIG-text-element-span,
+.second-descr-text-element,
+.second-block-element-midle-photoDisc,
+.number-list,
+.second-block-element-midle-descr-text,
+.second-block-element-midle-BIG-text,
+.second-block-element-midle-cost,
+.fourth-section-text-header-span {
+    font-family: 'Inter Tight';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hesh-tag {
+    padding: 0.5vh 2vh;
+    font-weight: 400;
+    font-style: 'Regular';
+    border-radius: 24px;
+}
+
+.first-section-BIG-text-span {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.first-section-small-text {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.first-line-img {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.first-section {
+    position: relative;
+}
+
+.first-section-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vh;
+    margin-top: 5vh;
+}
+
+.second-block-element-midle,
+.second-block-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-block-element-midle {
+    background-color: white;
+    gap: 2vh;
+}
+
+.underline-img {
+    margin-top: 2vh;
+    margin-right: 30%;
+}
+
+.about_us_first_section-left,
+.about_us_first_section-midl,
+.about_us_first_section-right {
+    width: 50vh;
+    height: 65vh;
+    border-radius: 2vh;
+}
+
+.about_us_first_section-left {
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+
+}
+
+.about_us_first_section-right {
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.about_us_first_section-midl {
+    width: 80vh;
+    border-radius: 20vh;
+}
+
+.second-section {
+    padding-top: 10vh;
+}
+
+.Pet-Health-Programs-fourth-secstion-img {
+    width: 65vh;
+    height: 47vh;
+    border-radius: 24px;
+}
+
+.second-text-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.second-BIG-text-element-span {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.second-descr-text-element {
+    font-weight: 400;
+    font-style: 'Regular';
+    text-align: right;
+
+}
+
+.second-section>div {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 5vh 0;
+}
+
+.second-block-element-midle-photo {
+    width: 50vh;
+    height: 98%;
+    margin-top: 0.7%;
+    background: url('../image/animals-for-examination-and-treatment-in-the-veter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 24px;
+}
+
+.second-block-element-midle-photoDisc {
+    width: fit-content;
+    border-radius: 24px;
+    padding: 1vh 2vh;
+    background-color: white;
+    float: right;
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+.number-list {
+    width: fit-content;
+    border-radius: 50%;
+    padding: 1vh 2.5vh;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 48px;
+    position: absolute;
+    top: 0vh;
+    right: -10vh;
+}
+
+.second-block-element-left>div:first-of-type {
+    top: 0vh;
+    right: 12vh
+}
+
+.second-block-element-midle-descr-text {
+
+    display: block;
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.second-block-element-midle-descr-text:last-of-type {
+    margin-bottom: 2vh;
+}
+
+.second-block-element-midle-BIG-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 3vh;
+}
+
+.second-block-element-left {
+    position: relative;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.second-block-element-midle-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+
+.second-block-element-midle-cost {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.second-block-element {
+    gap: 4vh;
+    padding-top: 3vh;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.second-block-element>div {
+    padding: 2vh;
+}
+
+.second-block-element-rigth {
+    width: 25vh;
+    border-top-left-radius: 24px;
+
+}
+
+.second-block-element {
+    position: relative;
+}
+
+.second-block-element-left-BIG-text-span {
+    font-family: Inter Tight;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-bottom: 3vh;
+
+}
+
+.second-block-element-left-text-element {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.second-block-element-left-descr-text-span {
+    font-family: Inter Tight;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+.second-block-element {
+    position: relative;
+}
+
+.second-block-element-leftContainer {
+    position: absolute;
+    background-color: white;
+    left: -25vh;
+    top: 3vh;
+    width: 50vh;
+    height: 70vh;
+    border-radius: 24px;
+}
+
+.second-block-element-rigth {
+    position: absolute;
+    right: 0vh;
+    top: 3vh;
+    background-color: white;
+    width: 25vh;
+    height: 70vh;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.second-block-element-midle {
+    width: 60%;
+    height: 70vh;
+    border-radius: 24px;
+}
+
+.fourth-section-text-header-span {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.fourth-section {
+    width: 100%;
+}
+
+.fourth-section-block-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin: 10vh 0;
+}
+
+.fourth-section-ul {
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: fit-content;
+    margin: 0%;
+}
+
+.fourth-section-BIG-text-span {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: start;
+
+}
+
+.fourth-section-li {
+    border-radius: 8px;
+    border: 1px solid rgba(220, 220, 220, 1);
+    padding: 2vh 2.5vh;
+    transition: background-color 0.3s ease;
+}
+.fourth-section-li:hover{
+    background-color: rgba(247, 227, 196, 1);
+    border: 1px solid rgba(255, 153, 0, 1)
+;
+}
+.fourth-section-descr-text-span {
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    display: block;
+}

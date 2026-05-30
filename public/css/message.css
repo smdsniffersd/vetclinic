@@ -1,0 +1,78 @@
+
+.messages-section {
+    margin-bottom: 30px;
+}
+
+.messages-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.message-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.message-date {
+    color: #999;
+}
+
+.message-status {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+.status-new {
+    background: #FFE0B2;
+    color: #E65100;
+}
+
+.status-read {
+    background: #E3F2FD;
+    color: #1565C0;
+}
+
+.status-replied {
+    background: #E8F5E9;
+    color: #2E7D32;
+}
+
+.message-text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.message-reply {
+    background: #e8f5e9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border-left: 3px solid #4CAF50;
+}
+
+.message-reply strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #2e7d32;
+}
+
+.new-message-btn {
+    background: #FF9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}

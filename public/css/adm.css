@@ -1,0 +1,258 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #f7e7ce;
+}
+
+.headerUl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+
+    padding: 2vh;
+    margin-left: 5vh;
+}
+
+header {
+    color: aliceblue;
+    background-color: #1f3d36;
+    font-weight: 800;
+}
+
+.headerUl>li:hover,
+.overlayGetInfoPetsX:hover,
+.overlayGetInfoPetsNewAddPet {
+    cursor: pointer;
+}
+
+.mainOverlay {
+    display: none;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 0.3vh;
+    margin-top: 5vh;
+
+}
+
+tr,
+td,
+th {
+    padding: 0.5vh;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    border-right: 1px solid rgba(21, 21, 21, 0.1);
+}
+
+tr {
+    border-bottom: 1px solid rgba(21, 21, 21, 0.1);
+    border-top: 1px solid rgba(21, 21, 21, 0.1);
+}
+
+td:last-child,
+th:last-child,
+tr:last-child,
+tr:first-child {
+    border: none;
+}
+
+.overlayGetInfoPetsSpan {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.overlayGetInfoPetsDiv {
+    border: 1px solid #1f3d36;
+    border-radius: 24px;
+    margin-top: 2vh;
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.overlayGetInfoPets {
+    font-size: 16px;
+    background-color: white;
+    border-radius: 24px;
+    width: fit-content;
+    min-width: 30vh;
+    padding: 3vh;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    display: none;
+}
+
+.overlayGetInfoPetsAddPetOverlay {
+    display: none;
+    padding: 1vh;
+    background-color: #1f3d36;
+    width: fit-content;
+    height: auto;
+    z-index: 9999999;
+    top: 20%;
+    left: 35%;
+    position: fixed;
+    border-radius: 18px;
+}
+
+.overlayGetInfoPetsX,
+.overlayGetInfoPetsNewAddPet {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+
+}
+
+.overlayGetInfoPetsNewAddPet {
+    right: 12%;
+}
+
+.overlayGetInfoPetsMessage {
+    font-size: 18px;
+    text-align: center;
+}
+
+.AddPetOverlaySpan,
+.OverlaySubmitButton {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.AddPetOverlaySpan {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.inputDivBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabelAddPet,
+.inputAddPet {
+    display: block;
+    border-radius: 18px;
+    border: none;
+    padding: 1vh;
+}
+
+.OverlaySubmitButton,
+.inputAddPet,
+.inputLabelAddPet {
+    margin-top: 1vh;
+}
+
+.OverlaySubmitButton {
+    margin-top: 2vh;
+    border: none;
+    padding: 1vh 4vh;
+    border-radius: 18px;
+}
+
+.overlaySuccessAddPet {
+    position: fixed;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 1vh 4vh;
+    font-size: 20px;
+    line-height: 24px;
+    top: 15%;
+    left: 2%;
+    border-radius: 18px;
+    display: none;
+}
+
+.overlayDeleteUser {
+    display: none;
+    background-color: #1f3d36;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 800;
+    width: 26.5vh;
+    height: 10vh;
+    padding: 2vh;
+    position: fixed;
+    top: 40%;
+    left: 43%;
+    border-radius: 12px;
+}
+
+.overlayDeleteUserDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    justify-content: center;
+    margin-top: 2.5vh;
+}
+
+.overlayDeleteUserSpan {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.overlayDeleteUserAnswer {
+    border-radius: 1px solid rgba(21, 21, 21, 0.1);
+}
+
+.overlayDeleteUserAnswer:hover {
+    cursor: pointer;
+}
+
+.editModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 2vh;
+    border-radius: 16px;
+}
+
+.editUserForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.addRowButton {
+    border: 1px solid rgba(21, 21, 21, 0.1);
+    padding: 1vh 2vh;
+    border-radius: 14px;
+    position: fixed;
+    top: 10%;
+    right: 5vh;
+}
+#addRowForm,
+#editRowForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+#addRowForm>:button,
+#editRowForm>button {
+    border: 1px solid rgba(21, 21, 21, 0.1);
+    padding: 1vh 2vh;
+    background-color: white;
+}

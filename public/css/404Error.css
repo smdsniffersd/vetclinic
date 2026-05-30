@@ -1,0 +1,112 @@
+html, body{
+    background-color: #1b1b1b;
+}
+span{
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    line-height: 32px;
+}
+.text-div{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30vh;
+}
+.number {
+    font-size: 250px;
+    line-height: 250px;
+    font-weight: 500;
+}
+
+.big-lapka {
+    position: absolute;
+    width: 442px;
+    height: 442px;
+    top: 50vh;
+    left: 0px;
+    background: url('../image/footer-main-big-lapka.png') no-repeat center / contain;
+    z-index: 2;
+    border-bottom-left-radius: 24px !important;
+    transform: rotate(50.0 deg)  !important;
+}
+
+.midle-lapka {
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    top: 60%;
+    left: 80%;
+    background: url('../image/footer-main-medium-lapka.png') no-repeat center / contain;
+    z-index: 3;
+}
+.idle-lapka-second{
+    top: 11vh;
+    left: 10vh;
+}
+.small-lapka {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    top: 10vh;
+    left: 90vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/footer-main-small-lapka.png') no-repeat center / contain;
+    z-index: 4;
+}
+.bg-lapka-1{
+position: absolute;
+    width: 100px; 
+    height: 100px;
+    top: 23vh;
+    left: 40vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/bg-image-1.png') no-repeat center / contain;
+    z-index: 4;
+}
+.bg-lapka-2{
+position: absolute;
+    width: 100px; 
+    height: 100px;
+    top: 70vh;
+    left: 70vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/bg-image-2.png') no-repeat center / contain;
+    z-index: 4;
+}
+
+.bg-lapka-3{
+position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 70vh;
+    left: 10vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/bg-image-6.png') no-repeat center / contain;
+    z-index: 4;
+}
+.bg-lapka-4{
+position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 10vh;
+    right: 30vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/bg-image-6.png') no-repeat center / contain;
+    z-index: 4;
+}
+.bg-lapka-5{
+position: absolute;
+    width: 100px; 
+    height: 100px;
+    top: 70vh;
+    right: 70vh;
+    transform: rotate(25.95 deg);
+    background: url('../image/bg-image-4.png') no-repeat center / contain;
+    z-index: 4;
+}
+@media (max-width: 768px) {
+    
+    .bg-lapka-2{
+        display: none !important;
+    }
+}
